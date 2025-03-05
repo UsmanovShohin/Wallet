@@ -28,8 +28,7 @@ func main() {
 			funcs.RegUsers(client)
 		case "2":
 			funcs.FindBalance(client)
-		case "3":
-			funcs.ListClient(client)
+		case "3":funcs.ListClient(client)
 		case "4":
 			funcs.Replenishment(client)
 		case "5":
